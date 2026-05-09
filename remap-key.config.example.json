@@ -1,0 +1,27 @@
+{
+  "log_level": "INFO",
+  "global": {
+    "default_mode": "type",
+    "default_paste_hotkey": "ctrl+v",
+    "clipboard_settle_ms": 40,
+    "clipboard_restore_delay_ms": 60,
+    "typing_delay_seconds": 0.0
+  },
+  "mappings": [
+    {
+      "enabled": true,
+      "trigger": "f8",
+      "text": "Hello from remap-key!",
+      "mode": "type",
+      "suppress": false
+    },
+    {
+      "enabled": true,
+      "trigger": "f9",
+      "text": "Paste this text via clipboard mode.",
+      "mode": "clipboard_paste",
+      "paste_hotkey": "ctrl+v",
+      "suppress": false
+    }
+  ]
+}

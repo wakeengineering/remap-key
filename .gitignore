@@ -1,0 +1,5 @@
+# Ignore local configuration and runtime artifacts
+remap-key.config.json
+remap-key.task.log
+__pycache__/
+python.venv-remap/
