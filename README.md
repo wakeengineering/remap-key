@@ -28,7 +28,6 @@ A flexible, global key-to-text remapping tool for Windows, designed for producti
    - Example config is included so you can commit a clean sample file while keeping your local settings private.
 4. **Install as Task** (for boot persistence):
    - Run `install-remap-task.ps1` as Administrator to create a scheduled task that starts at logon.
-   - Alternatively, use `RemapKeyOnLogon.xml` with Task Scheduler.
 5. **Run Manually**: Execute `remap-key.py` or use `run-remap-key.cmd` / `run-remap-key-hidden.vbs` for hidden execution.
 
 ## Usage
